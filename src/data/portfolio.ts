@@ -112,7 +112,7 @@ export const projects: Project[] = [
       'Built a concurrent TCP server in C with select()-based multiplexing for scalable multi-client handling',
       'Benchmarked latency and throughput under load (avg, p95, p99 RTT, RPS, failure rate) using a custom stress-testing harness',
     ],
-    tags: ['Python', 'PyTorch', 'Robotics', 'RL', 'Sim-to-Real'],
+    tags: ['C', 'POSIX Sockets', 'TCP/IP', 'Linux'],
     github: 'https://github.com/blade9523411/raw_socket_server/', // TODO: update to specific repo
     imageSrc: `${import.meta.env.BASE_URL}images/tcpdemo.png`,
     imageAlt: 'Marine robotics RL — simulated underwater robot',
