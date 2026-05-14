@@ -1,7 +1,7 @@
 # Jayanth Lalukota — Portfolio
 
 Personal portfolio built with **React + Vite + TypeScript**.  
-Design: editorial, off-white, oversized typography — no frameworks, plain CSS Modules.
+Github Page at https://blade9523411.github.io/portfolio/
 
 ---
 
