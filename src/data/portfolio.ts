@@ -84,7 +84,7 @@ export const projects: Project[] = [
   },
   {
     id: 'pmf-finder',
-    title: 'PMF Finder - Agentic Scoring Engine',
+    title: 'Agentic Market Opportunity Scorer',
     description:[
       'Architected a deterministic scoring engine that normalizes company records into five sub-scores: digital maturity, operational complexity, information flow, market pressure, and revenue-based budget capacity.',
     ],
@@ -95,7 +95,7 @@ export const projects: Project[] = [
   },
   {
     id: 'stock-trading-sim',
-    title: 'Event-Driven Quant Trading System',
+    title: 'Autonomous Equity Trading System',
     description:[
       'Built an event-driven quantitative trading simulator across the S&P 100 using intraday yfinance data, APScheduler, Google Cloud Storage persistence, and 15-minute trading cycles.',
       ' Trained a RandomForestRegressor with causal rolling features, transaction costs, slippage, backtesting, and walk-forward OOS metrics including Sharpe, drawdown, win rate, and equity curves.',     
@@ -143,6 +143,7 @@ export const experience: ExperienceItem[] = [
     location: 'University of Wisconsin--Madison',
     bullets: [
       'Contributed to control system development for underwater robotic platforms, focusing on stability and actuation in constrained environments',
+      'Built a research grade RL environment simulating underwater dynamics and constraints, supporting algorithm development and testing for marine robotics applications.',
       
     ],
     tags: ['Robotics', 'Controllers', 'Research'],
